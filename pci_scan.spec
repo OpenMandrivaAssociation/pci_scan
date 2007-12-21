@@ -11,6 +11,7 @@ Source0:	http://www.ltsp.org/tarballs/%{name}-%{version}.tar.bz2
 URL:		http://www.ltsp.org
 BuildRequires:	dietlibc-devel
 Requires:	ltsp-hwlists >= 0.02
+BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
 This program will read in a device database of PCI Vendor/Device Ids. It will
