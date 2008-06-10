@@ -4,14 +4,14 @@
 Summary:	PCI scanning tool for X Terminals and embedded systems
 Name:		pci_scan
 Version:	0.02
-Release:	%mkrel 2
+Release:	%mkrel 3
 License:	GPL
 Group:		System/Kernel and hardware
 Source0:	http://www.ltsp.org/tarballs/%{name}-%{version}.tar.bz2
 URL:		http://www.ltsp.org
 BuildRequires:	dietlibc-devel
 Requires:	ltsp-hwlists >= 0.02
-BuildRoot:	%{_tmppath}/%{name}-%{version}-root
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 This program will read in a device database of PCI Vendor/Device Ids. It will
@@ -50,5 +50,3 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %doc COPYING
 %attr(0755,root,root) /sbin/%{name}
-
-
