@@ -4,7 +4,7 @@
 Summary:	PCI scanning tool for X Terminals and embedded systems
 Name:		pci_scan
 Version:	0.02
-Release:	%mkrel 5
+Release:	6
 License:	GPL
 Group:		System/Kernel and hardware
 Source0:	http://www.ltsp.org/tarballs/%{name}-%{version}.tar.bz2
