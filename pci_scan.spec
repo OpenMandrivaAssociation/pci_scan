@@ -8,7 +8,7 @@ Release:	6
 License:	GPL
 Group:		System/Kernel and hardware
 Source0:	http://www.ltsp.org/tarballs/%{name}-%{version}.tar.bz2
-URL:		http://www.ltsp.org
+URL:		https://www.ltsp.org
 BuildRequires:	dietlibc-devel
 Requires:	ltsp-hwlists >= 0.02
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
